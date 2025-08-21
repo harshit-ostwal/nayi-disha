@@ -57,7 +57,7 @@ function Page() {
   };
 
   return (
-    <Container className={"max-w-2xl flex flex-col justify-center gap-3"}>
+    <Container className={"max-w-2xl flex flex-col justify-center gap-3 py-20"}>
       <ImageComp
         src={Assets.logos.transparent.black.src}
         alt={Assets.logos.alt}
